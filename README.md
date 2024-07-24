@@ -1,8 +1,35 @@
-# React + Vite
+# User Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a simple User Management application built with React that allows for CRUD (Create, Read, Update, Delete) operations on user data. The application fetches user data from a mock API and allows users to add, edit, and delete records. The UI is designed using Bootstrap for a clean and responsive interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Fetch and display a list of users from a mock API
+- Add a new user
+- Edit an existing user
+- Delete a user
+- Responsive design using Bootstrap
+
+## Technologies Used
+
+- React
+- Axios
+- Bootstrap
+- Framer Motion (for animations)
+
+## Setup Instructions
+
+### Prerequisites
+
+- Node.js (v14 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/user-management-app.git
+   cd user-management-app
