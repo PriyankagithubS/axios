@@ -1,0 +1,39 @@
+/* src/App.css */
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  max-width: 960px;
+}
+
+h1 {
+  color: #343a40;
+}
+
+h2 {
+  color: #6f42c1;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-control {
+  border-radius: 10px;
+}
+
+.contact-form button {
+  background-color: #6f42c1;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.contact-form button:hover {
+  background-color: #5a35a2;
+}
